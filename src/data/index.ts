@@ -115,6 +115,8 @@ export const DATA = {
       category: "Career",
       excerpt:
         "Hành trình thay đổi tư duy từ 'đẹp' sang 'đúng' và cách kỹ năng thiết kế hỗ trợ đắc lực cho công việc phân tích nghiệp vụ.",
+      image:
+        "https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=2070&auto=format&fit=crop",
     },
     {
       id: 2,
@@ -123,6 +125,8 @@ export const DATA = {
       category: "Knowledge",
       excerpt:
         "Tại sao việc mô hình hóa quy trình nghiệp vụ lại quan trọng? Cách sử dụng BPMN để giao tiếp hiệu quả giữa Stakeholders và Dev team.",
+      image:
+        "https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=2070&auto=format&fit=crop",
     },
     {
       id: 3,
@@ -131,6 +135,8 @@ export const DATA = {
       category: "Case Study",
       excerpt:
         "Những bài học rút ra khi thiết kế giao diện cho bác sĩ và kỹ thuật viên phòng xét nghiệm tại các bệnh viện lớn.",
+      image:
+        "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=2070&auto=format&fit=crop",
     },
     {
       id: 4,
@@ -139,6 +145,8 @@ export const DATA = {
       category: "Skills",
       excerpt:
         "Làm thế nào để đặt câu hỏi đúng và thấu hiểu những nỗi đau (pain points) thực sự của người dùng thay vì chỉ nghe những gì họ muốn.",
+      image:
+        "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop",
     },
   ],
   skills: {
