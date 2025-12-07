@@ -2,6 +2,7 @@
 
 import React, { useRef, useLayoutEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Mail, Linkedin } from "lucide-react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -175,22 +176,34 @@ export default function Home() {
             View All
           </Link>
         </div>
-        <div className="home-blog-list grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8">
+        <div className="home-blog-list grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-12">
           {DATA.blog.slice(0, 4).map((post) => (
             <Link
               href="/blog"
               key={post.id}
-              className="home-blog-item interactive cursor-pointer hover:opacity-70 transition-opacity"
+              className="home-blog-item group interactive cursor-pointer flex flex-col gap-4"
             >
-              <span className="text-xs font-mono text-gray-400 mb-2 block">
-                {post.date} — {post.category}
-              </span>
-              <h3 className="text-xl font-bold leading-tight mb-2">
-                {post.title}
-              </h3>
-              <p className="text-sm text-gray-600 line-clamp-2">
-                {post.excerpt}
-              </p>
+              {post.image && (
+                <div className="aspect-[3/2] w-full relative overflow-hidden bg-gray-100 border border-black/10">
+                  <Image
+                    src={post.image}
+                    alt={post.title}
+                    fill
+                    className="object-cover grayscale group-hover:grayscale-0 transition-all duration-500 ease-in-out"
+                  />
+                </div>
+              )}
+              <div className="flex flex-col">
+                <span className="text-xs font-mono text-gray-400 mb-2 block uppercase tracking-wider">
+                  {post.date}
+                </span>
+                <h3 className="text-xl font-bold leading-tight mb-3 group-hover:underline decoration-1 underline-offset-4">
+                  {post.title}
+                </h3>
+                <p className="text-sm text-gray-600 line-clamp-3 leading-relaxed">
+                  {post.excerpt}
+                </p>
+              </div>
             </Link>
           ))}
         </div>
