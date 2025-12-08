@@ -4,6 +4,7 @@ import "./globals.css";
 import CustomCursor from "@/components/shared/CustomCursor";
 import Navigation from "@/components/shared/Navigation";
 import Preloader from "@/components/shared/Preloader";
+import BackToTop from "@/components/shared/BackToTop";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +24,7 @@ export default function RootLayout({
         className={`${inter.className} antialiased bg-white text-black selection:bg-black selection:text-white overflow-x-hidden`}
       >
         <Preloader />
+        <BackToTop />
         <CustomCursor />
         <Navigation />
         {children}
