@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import CustomCursor from "@/components/shared/CustomCursor";
 import Navigation from "@/components/shared/Navigation";
+import Preloader from "@/components/shared/Preloader";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +22,7 @@ export default function RootLayout({
       <body
         className={`${inter.className} antialiased bg-white text-black selection:bg-black selection:text-white overflow-x-hidden`}
       >
+        <Preloader />
         <CustomCursor />
         <Navigation />
         {children}
