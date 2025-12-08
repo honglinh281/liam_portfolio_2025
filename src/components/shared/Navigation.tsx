@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useRef, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { DATA } from "@/data";
 import gsap from "gsap";
@@ -57,12 +58,18 @@ const Navigation = () => {
   return (
     <>
       <nav className="fixed top-0 left-0 w-full px-6 py-6 flex justify-between items-center z-50 mix-blend-difference text-white">
-        <Link
-          href="/"
-          className="text-xl font-bold tracking-tighter interactive uppercase"
-        >
-          VH. LINH
-        </Link>
+        <div className="flex items-center gap-12">
+          <Link href="/" className="interactive relative z-50">
+            <Image
+              src="/logo.png"
+              alt="Liam Portfolio Logo"
+              width={120}
+              height={40}
+              className="h-10 w-auto object-contain"
+              priority
+            />
+          </Link>
+        </div>{" "}
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="interactive hover:opacity-70 transition-opacity"
