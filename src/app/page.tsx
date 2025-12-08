@@ -184,7 +184,7 @@ export default function Home() {
               className="home-blog-item group interactive cursor-pointer flex flex-col gap-4"
             >
               {post.image && (
-                <div className="aspect-video w-full relative overflow-hidden bg-gray-100 border border-black/10">
+                <div className="aspect-[2/1] w-full relative overflow-hidden bg-gray-100 border border-black/10">
                   <Image
                     src={post.image}
                     alt={post.title}

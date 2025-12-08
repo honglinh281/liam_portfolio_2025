@@ -22,7 +22,7 @@ const BlogItem = ({ post }: { post: BlogPost }) => {
       </div>
       <div className="md:w-3/4 flex flex-col md:flex-row gap-6">
         {post.image && (
-          <div className="md:w-1/4 relative aspect-[3/2] overflow-hidden">
+          <div className="md:w-1/5 relative aspect-[3/2] overflow-hidden">
             <Image
               src={post.image}
               alt={post.title}
