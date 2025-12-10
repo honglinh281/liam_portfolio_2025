@@ -9,7 +9,7 @@ import BackToTop from "@/components/shared/BackToTop";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Liam Portfolio 2025",
+  title: "Liam",
   description: "Portfolio of Vũ Hồng Linh - Business Analyst & UI/UX Designer",
 };
 
