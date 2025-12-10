@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import GlitchText from "@/components/shared/GlitchText";
 import { DATA } from "@/data";
 
 const Footer = () => {
@@ -10,7 +11,7 @@ const Footer = () => {
           href="/contact"
           className="text-[10vw] font-bold leading-none tracking-tighter hover:italic transition-all cursor-pointer interactive block"
         >
-          LET'S CONNECT
+          <GlitchText text="LET'S CONNECT" />
         </Link>
       </div>
 

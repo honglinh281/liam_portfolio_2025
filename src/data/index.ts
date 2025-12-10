@@ -2,13 +2,13 @@ import { Linkedin, Mail, Phone } from "lucide-react";
 
 export const DATA = {
   personal: {
-    name: "Vũ Hồng Linh",
+    name: "li@m",
     role: "Business Analyst & UI/UX Designer",
     location: "Hanoi, Vietnam",
     email: "vhonglinh28@gmail.com",
     phone: "036 861 9874",
     linkedin: "https://www.linkedin.com/in/vhlinh28",
-    bio: "Chuyển mình từ UI/UX Designer sang Business Analyst với mục tiêu trở thành Product Owner trong 3-5 năm tới. Tôi kết hợp tư duy thẩm mỹ và phân tích nghiệp vụ sắc bén để tạo ra các giải pháp số hiệu quả.",
+    bio: "Transitioning from UI/UX Designer to Business Analyst with the goal of becoming a Product Owner within 3-5 years. I combine aesthetic thinking with sharp business analysis to create effective digital solutions.",
     fullBio:
       "Tốt nghiệp chuyên ngành CNTT và có 2 năm kinh nghiệm làm UI/UX Designer, tôi đã tham gia nhiều dự án đa dạng như e-CRM, ERP, và Booking App. Gần đây, tôi chuyển hướng sang Business Analyst để có cái nhìn toàn diện hơn về phát triển sản phẩm. Tôi tự tin với kiến thức kỹ thuật, kỹ năng thiết kế và đam mê học hỏi không ngừng.",
   },

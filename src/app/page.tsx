@@ -102,7 +102,7 @@ export default function Home() {
             <div className="hero-line pl-[5vw] text-gray-400">Analyst</div>
           </div>
           <div className="overflow-hidden">
-            <div className="hero-line">& Designer</div>
+            <div className="hero-line">& UX/UI Designer</div>
           </div>
         </div>
         <div
