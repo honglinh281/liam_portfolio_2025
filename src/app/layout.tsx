@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import CustomCursor from "@/components/shared/CustomCursor";
 import Navigation from "@/components/shared/Navigation";
@@ -29,6 +30,7 @@ export default function RootLayout({
         <CustomCursor />
         <Navigation />
         {children}
+        <Analytics />
       </body>
     </html>
   );
