@@ -40,8 +40,8 @@ export default function Blog() {
           Journal
         </h1>
         <p className="mt-4 text-xl text-gray-500 max-w-2xl">
-          Chia sẻ kiến thức về Business Analysis, UX Design và những bài học từ
-          các dự án thực tế.
+          Sharing knowledge about Business Analysis, UX Design, and lessons from
+          real projects.
         </p>
       </div>
       <div className="flex flex-col">

@@ -217,8 +217,8 @@ export default function Home() {
               About Me
             </h2>
             <div className="home-about-text text-3xl md:text-5xl font-medium leading-tight tracking-tight mb-8">
-              Cử nhân CNTT với 2 năm kinh nghiệm UI/UX Design, hiện đang tập
-              trung vào Business Analysis.
+              IT graduate with 2 years of UI/UX Design experience, currently
+              focusing on Business Analysis.
             </div>
             <Link
               href="/about"
@@ -229,10 +229,10 @@ export default function Home() {
           </div>
           <div className="flex flex-col justify-end space-y-8">
             <p className="home-about-text text-lg text-gray-400 leading-relaxed">
-              Tôi có kinh nghiệm thực tế qua nhiều dự án đa dạng như e-CRM, ERP,
-              Booking App và Hệ thống LIS y tế. Điểm mạnh của tôi là khả năng
-              thấu hiểu người dùng thông qua quá trình thiết kế giao diện, kết
-              hợp với tư duy hệ thống khi phân tích nghiệp vụ.
+              I have practical experience through diverse projects such as
+              e-CRM, ERP, Booking Apps, and Healthcare LIS systems. My strength
+              lies in understanding users through interface design, combined
+              with systematic thinking in business analysis.
             </p>
             <div className="home-about-text grid grid-cols-2 gap-8 text-sm font-mono text-gray-500 pt-8 border-t border-gray-800">
               <div>

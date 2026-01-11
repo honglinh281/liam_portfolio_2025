@@ -45,10 +45,10 @@ export default function About() {
               {DATA.personal.fullBio}
             </p>
             <p className="reveal-el text-lg text-gray-600 leading-relaxed">
-              Điểm mạnh của tôi là khả năng thấu hiểu người dùng thông qua quá
-              trình thiết kế giao diện, kết hợp với tư duy hệ thống khi phân
-              tích nghiệp vụ. Tôi luôn tìm kiếm giải pháp cân bằng giữa trải
-              nghiệm người dùng và mục tiêu kinh doanh.
+              My strength lies in understanding users through interface design
+              processes, combined with systematic thinking in business analysis.
+              I always seek solutions that balance user experience with business
+              objectives.
             </p>
           </div>
 
